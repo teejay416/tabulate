@@ -1,0 +1,21 @@
+values,frequency,cumulative,percentage
+None,9,9,100.0
+values,frequency,cumulative,percentage
+High,32,32,64.0
+None,9,41,18.0
+Low,5,46,10.0
+Medium,4,50,8.0
+value,High,Low,Medium,None
+High,20.0,5.0,2.0,5.0
+Low,N/A,2.0,N/A,3.0
+Medium,N/A,N/A,1.0,3.0
+None,4.0,1.0,N/A,4.0
+value,Less,More,Same
+In work,N/A,10.0,1.0
+"Not in work, disabled",N/A,N/A,7.0
+"Not in work, lone parent",2.0,N/A,14.0
+"Not in work, other",N/A,N/A,16.0
+values,frequency,cumulative,percentage
+Private Rent,27,27,54.0
+Temporary accommodation,21,48,42.0
+Social Rent,2,50,4.0

@@ -1,0 +1,27 @@
+{
+    "impact_2016": {
+    	"col": "impact_2016",
+        "func": "tab"
+    },
+    "impact_2016_w_filter": {
+    	"col": "impact_2016",
+        "func": "tab",
+        "query": "impact_2016 == 'None'"
+    },
+    "demo_economicstatus_double": {
+    	"col": "demo_economicstatus",
+        "second_col": "uc_moreorless_2016",
+        "func": "tab",
+        "query": "demo_agegroup == 'Working age' || ((input_age_user < 64 || input_age_partner < 64) && input_relationship_status != 'Single');"
+    },
+    "input_dla_care_user_tab_w_filter": {
+        "col": "demo_tenure",
+        "func": "tab",
+        "query": "demo_tenure != 'Council tenant';"
+      },
+    "impact_2016_tab_double": {
+        "col": "impact_2016",
+        "second_col": "impact_2015",
+        "func": "tab"
+    }
+}
